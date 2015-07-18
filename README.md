@@ -6,8 +6,10 @@ Spigot version 1.8.4 | Boss configuration | Title configuration | ActionBar conf
 Developed by Adin_SK
 
 Comming Soon:
-Language configuration (messages.yml)
-Nexus heal configuration
+
+- Language configuration (messages.yml)
+
+- Nexus heal configuration
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
