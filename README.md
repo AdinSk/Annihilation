@@ -2,8 +2,11 @@
 Annihilation game
 
 
-Spigot version 1.8.4 | Boss configuration | Title configuration | ActionBar configuration | Prefix configuration
-Developed by Adin_SK
+- Spigot version 1.8.4 
+- Boss configuration 
+- Title configuration 
+- ActionBar configuration 
+- Prefix configuration
 
 Comming Soon:
 
@@ -14,4 +17,7 @@ Comming Soon:
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 Current Language: Czech/Slovak
+
+
+- Developed by Adin_SK
 
