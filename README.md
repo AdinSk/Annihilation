@@ -15,6 +15,8 @@ Comming Soon:
 
 - Nexus heal configuration
 
+- Setup commands 
+
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 - Current Language: Czech/Slovak
