@@ -1,0 +1,81 @@
+# Anni - Nastaveni mapy
+# Nastavena mapa Canyon LINK: http://uloz.to/x82hpiye/canyonmap-zip
+
+test:
+# Spawns - Zapis suradnice Spawn Teamu
+  spawns:
+    red:
+    - "-25,65,-25"
+    yellow:
+    - "-25,65,25"
+    green:
+    - "25,65,25"
+    blue:
+    - "25,65,-25"
+# Nexuses - Zapis suradnice Nexus Teamu
+  nexuses:
+    red: "-27,66,-27"
+    yellow: "-27,66,27"
+    green: "27,66,27"
+    blue: "27,66,-27"
+    
+# Furnances - Zapis suradnice Furnances Teamu
+  furnaces:
+    red: "-22,65,-22"
+    yellow: "-22,65,22"
+    green: "22,65,22"
+    blue: "22,65,-22"
+        
+# Brewing - Zapis suradnice BrewingStands Teamu
+  brewingstands:
+    red: "-20,65,-20"
+    yellow: "-20,65,20"
+    green: "20,65,20"
+    blue: "20,65,-20"
+    
+# Chests - Zapis suradnice EnderChests Teamu
+  enderchests:
+    red: "-21,65,-21"
+    yellow: "-21,65,21"
+    green: "21,65,21"
+    blue: "21,65,-21"
+    
+# Diamonds - Zapis suradnice Diamantu
+  diamonds:
+  - "0,62,0"
+  - "1,62,1"
+  - "1,62,-1"
+  - "-1,62,-1"
+  - "-1,62,1"
+  
+# Bosses - Zapis suradnice Bossu
+  bosses:
+    boss1:
+      name: "&bCelariel"
+      spawn: "0,63,-21"
+      chest: "0,63,-23"
+      hearts: 100
+    boss2:
+      name: "&cFirwen"
+      spawn: "0,63,22"
+      chest: "0,63,24"
+      hearts: 100
+
+# Lobby - Zapis suradnice Spawn Lobby
+lobby:
+  spawn: "0,32,0"
+  
+# Signs - Zapis suradnice Signs Teamu
+  signs:
+    red:
+    - "-2,23,-2"
+    - "-3,65,-4"
+    yellow:
+    - "2,23,-2"
+    - "-3,65,4"
+    green:
+    - "2,23,2"
+    - "3,65,4"
+    blue:
+    - "-2,23,2"
+    - "3,65,-4"
