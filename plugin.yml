@@ -1,0 +1,35 @@
+name: Anni
+main: sk.Adin.Anni.Anni
+authors: [coasterman10, stuntguy3000, Adin_SK]
+softdepend: [Vault]
+version: 1.0Dev Beta
+commands:
+  annihilation:
+    description: Anni help command
+    aliases: anni
+  team:
+    description: Anni team command
+    aliases: t
+  vote:
+    description: Anni vote command
+    aliases: v
+  stats:
+    description: Anni stats command
+    aliases: s
+  class:
+    description: Anni class command
+    aliases: c
+  blue:
+    description: Anni blue team command
+  green:
+    description: Anni green team command
+  yellow:
+    description: Anni yellow team command
+  red:
+    description: Anni red team command
+  distance:
+    description: Anni distance command
+    aliases: [d, dis]
+  map:
+    description: Anni map command
+    aliases: m
