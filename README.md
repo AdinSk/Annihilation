@@ -15,7 +15,7 @@ Comming Soon:
 
 - Nexus heal configuration
 
-- Setup commands 
+- Map setup commands 
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
