@@ -1,1 +1,2 @@
 # Annihilation
+Annihilation game
