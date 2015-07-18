@@ -48,7 +48,7 @@ public class StatsCommand implements CommandExecutor {
                 listStats((Player) sender);
             }
         } else {
-            //sender.sendMessage(ChatColor.GOLD + _("CRAFTERNEXUS_PREFIX") + ChatColor.RED + _("ERROR_CONSOLE_PLAYERCOMMAND"));
+            sender.sendMessage("§cTento prikaz moze psat len hrac!");
         }
 
         return true;
