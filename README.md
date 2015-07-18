@@ -6,7 +6,8 @@ Annihilation game
 - Boss configuration 
 - Title configuration 
 - ActionBar configuration 
-- Prefix configuration
+- Prefix configuration 
+- Tab configuration
 
 Comming Soon:
 
@@ -16,7 +17,7 @@ Comming Soon:
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-Current Language: Czech/Slovak
+- Current Language: Czech/Slovak
 
 
 - Developed by Adin_SK
