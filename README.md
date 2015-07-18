@@ -8,7 +8,8 @@ Developed by Adin_SK
 Comming Soon:
 Language configuration (messages.yml)
 Nexus heal configuration
----------------------------------------------------------------------------------------------
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 Current Language: Czech/Slovak
 
