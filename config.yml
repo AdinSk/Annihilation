@@ -1,0 +1,276 @@
+####################################################################### Anni #######################################################################
+#																                                SPIGOT VERSION: 1.8.4
+#                                                               VAULT
+#                                                               PLUGIN BY ADIN_SK (REBUILD)
+#
+#                                                                    Permissions:
+#														                              KITS:
+#
+#                                                         anni.class.warrior - WARRIOR
+#                                                         anni.class.archer - ARCHER
+#                                                         anni.class.miner - MINER
+#                                                         anni.class.lumberjack - LUMBERJACK
+#                                                         anni.class.scout - SCOUT
+#                                                         anni.class.berserker - BERSERKER
+#                                                         anni.class.spy - SPY
+#                                                         anni.class.defender - DEFENDER
+#                                                       ------------------------
+#
+#                                                         OSTATNE:
+#
+#                                                         anni.bypass.teamlimitor - ZMENA TEAMU
+#                                                         anni.bypass.teamlimit - PRIPOJIT SA DO PLNEHO TEAMU
+#                                                         anni.bypass.phaselimiter - PHASE JOIN
+#                                                         anni.map.edit - EDIT MAP
+#                                                         anni.map.save - SAVE MAP
+#  
+#####################################################################################################################################################
+# Cas do startu -  1 = 1 sekunda do startu
+start-delay: 120
+
+# Cas fazie - 1 = 1 sekunda ODPORUCAM: 600 sekund = 10 minut
+phase-period: 600
+
+# Restart Cas - 1 = 1 sekunda do restartu
+restart-delay: 120
+
+# Stat system: "flatfile" - FILE DATABAZA - stats.yml |  "sql" - MYSQL DATABAZA 
+stats: flatfile
+
+MySQL:
+    port: 3306
+    user: meno_uzivatela
+    pass: heslo
+    host: nieco.fakaheda.eu
+    name: meno_databazi
+    
+# true - RYMSKE CISLICE | false - NORMALNE CISLICE
+roman: true
+
+#Prefix Anni
+prefix: '&0[&eAnni&0]'
+
+# Pocet hracu do startu
+requiredToStart: 2
+
+# Stavacia zona ODPORUCAM: 14
+build: 14
+
+# Cas do spawnutia bossa 1 = 1 minuta do spawnutia ODPORUCAM 10 minut
+bossRespawnDelay: 10
+
+# MOTD - true - zapnes | false - vypnes
+enableMotd: true
+
+# Pripajanie do fazie 
+lastJoinPhase: 2
+
+# Nastaveni MOTD
+# %PHASE% %TIME% %PLAYERCOUNT% %MAXPLAYERS%
+# %GREENNEXUS% %REDNEXUS% %BLUENEXUS% %YELLOWNEXUS%
+# %GREENCOUNT% %REDCOUNT% %BLUECOUNT% %YELLOWCOUNT% 
+motdLobby: '&5&lLobby'
+motdPhase: '&aFaze &e%PHASE%'
+
+#Nastaveni ActionBar:
+# %PHASE% %TIME% %RESTART% %TOTAL%
+ActionPhase: '&aFaze: &e%PHASE% &f&l| &cCas: &5%TIME%'
+ActionStart: '&7Hra startuje za ' 
+ActionRestart: '&cTotalny cas: &6%TOTAL% &f| &aServer sa restartuje za %RESTART%'
+
+#Nastaveni TitleAPI
+#Team
+EnableJoinTeamTitle: true
+JoinTitleTeam: '&fZvoleny team'
+JoinSubTitleTeam: '&r%TEAM%'
+
+#Classa
+EnableClassTitle: true
+ClassTitleSelect: '&fZvolena classa' 
+ClassSubTitleSelect: '&e%CLASS%'
+
+#Join 
+EnableJoinTitle: true
+JoinTitle: '&7Vitej v Anni'
+JoinSubTitle: '&eUzij si hru!'
+
+#MapTitle 
+EnableMapTitle: true
+MapTitle: '&fBude sa hrat mapa'
+MapSubTitle: '&e%MAP%'
+
+#BossTitle 
+EnableBossTitle: true
+SpawnBossTitle: 'Boss &a%boss% &fbyl spawnut!'
+SpawnBossSubTitle: '&cBez ho zabit!'
+
+#EndGameTitle 
+EnableEndTitle: true
+EndGameTitle: '&aGratulace'
+EndGameSubTitle: 'Team %TEAM% &fVyhral!'
+
+#NexusTitle 
+EnableNexusTitle: true
+NexusZnicenTitle: 'Hrac %KILLER% &rs teamu &r%TEAM%'
+NexusZnicenSubTitle: 'znicil &r%ZNICEN% Nexus&r!'
+
+#PhaseTitle 
+EnablePhaseTitle: true
+PhaseTitle: 'Faze &e%PHASE%'
+PhaseSubTitle: 'Zacala!'
+
+#Nastaveni TAB
+# %PHASE% %TIME% %MAP%
+EnableTab: true
+Header: '&7Mapa: &e%MAP%'
+Voting: '&7Voting'
+Footer: '&aFaze &e%PHASE% &7&l| &b%TIME%'
+
+#ScoreBoard
+LobbySB: '&aHlasovani &f&l| &e/vote <ID>'
+GameSB: '&7Mapa: &6&l%MAP%'
+
+#Nastaveni menu
+#TEAM
+#Item
+JoinItemTeamName: '&eVyber teamu' 
+ItemTeamID: 340
+JoinItemTeamSlot: 1
+#Menu
+TitleTeamMenu: '&0&l&nVyber Teamu'
+TeamSlotMenu: 9
+#Teams Slot
+YellowSlot: 1
+RedSlot: 2
+GreenSlot: 3
+BlueSlot: 4
+#Teams name
+YellowName: '&eYellow'
+RedName: '&cRed'  
+GreenName: '&aGreen' 
+BlueName: '&9Blue'
+#Teams Lore VARIABLE:  "Â»" - %SIPKA%
+YellowLore: '&e%SIPKA% &7Pocet hracu: &e%YELLOW%'
+RedLore: '&c%SIPKA% &7Pocet hracu: &c%RED%'
+GreenLore: '&a%SIPKA% &7Pocet hracu: &a%GREEN%'
+BlueLore: '&9%SIPKA% &7Pocet hracu: &9%BLUE%'
+
+#CLASS
+#Menu
+TitleClassMenu: '&0&l&nVyber Classe'
+#Item 
+JoinItemClassName: '&bVyber classe' 
+JoinItemClassSlot: 2
+ItemClassID: 288
+
+#NEXUS ITEM VARIABLE: Team Farba: %COLOR% | Team %TEAM%
+CompassItem: '&f&lSmerujes k %COLOR%%TEAM% Nexusu!'
+
+#Chat VARIABLE: %color% - farba teamu
+LobbyChat: '&8[&5Lobby&8]'
+AllChat: '&8[%color%All&8]'
+TeamChat: '&8[%color%Team&8]'
+DeadChat: '&8[&cDEAD&8]'
+AllChatText: '!'
+ChatEnd: '&e&l>'
+
+#Nastaveni hraca
+KillXP: 5
+KillBossXP: 20
+
+# Prikaz pro reset
+commandsToRunAtEndGame:
+ - "wr reset now"
+
+
+#BOSS NASTAVENI
+Boss-loot:
+  Item-Nb: 6
+  Item0:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 1
+        OXYGEN: 3
+      display-name: '§bOxygerka'
+      lore:
+      - '§7Vydrzis dluhsi pod vodou'
+      repair-cost: 4
+  Item1:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        OXYGEN: 3
+      display-name: '§bOxygerka druha'
+      lore:
+      - '§7Vydrzis dluhsi pod vodou'
+      - '§5 + protect 4!'
+      repair-cost: 4
+  Item2:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+      display-name: '§bAnti sharpky'
+      lore:
+      - '§7Si odolny proti smrti!'
+      repair-cost: 2
+  Item3:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+        PROTECTION_FALL: 4
+      display-name: '§bPadaci boty'
+      lore:
+      - '§7Odolavas tie najvetsie pady!'
+      repair-cost: 2
+  Item4:
+    ==: org.bukkit.inventory.ItemStack
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        ARROW_INFINITE: 1
+      display-name: '§7Nekonecny luk'
+      lore:
+      - '§7Staci ti jen jeden sip!'
+      repair-cost: 4
+  Item5:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 3
+      display-name: '§7Krvavy vypynac'
+      lore:
+      - '§7Stimto zabijes kazdeho!'
+      repair-cost: 2
+  Item6:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+      display-name: '§bTroll plate'
+      lore:
+      - '§7Odolas vseho!'
+      repair-cost: 2
